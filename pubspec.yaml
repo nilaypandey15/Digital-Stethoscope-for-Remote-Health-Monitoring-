@@ -1,0 +1,31 @@
+name: flutter_application_285555
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Application version information
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.0.0
+  fl_chart: ^0.69.2
+  cupertino_icons: ^1.0.8
+  flutter_local_notifications: ^18.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Define assets used in the project
+  assets:
+    - assets/images/  # Directory for all image files, such as logo.png or background.jpg
